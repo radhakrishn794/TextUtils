@@ -20,7 +20,7 @@ export default function Textarea(props) {
     props.showAlert("text cleared","success");
   }
   const replaceWord = () => {
-    let occur= prompt("If want to replace all occurence type 1 \n or if only first occurence type 0 ");
+    let occur= prompt("If want to replace all occurence type 1\nOR if only first occurence type 0 ");
     let old = prompt("Enter the word you want to replace");
     let newWord = prompt("Enter the new word");
     if(occur==='1')
