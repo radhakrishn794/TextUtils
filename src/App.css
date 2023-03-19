@@ -1,0 +1,27 @@
+.color{
+    width: 132px;
+    height: 25px;
+    margin-right: 7px;
+    display: flex;
+    flex-direction: row;
+}
+#a,#b,#c,#d{
+    border: none;
+    outline-style: none;
+    width: 33px;
+    height:25px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+#a{
+    background-color: #b67204;
+}
+#b{
+    background-color: #0a2b7e;
+}
+#c{
+    background-color: #146106;
+}
+#d{
+    background-color: #7e0a0a;
+}
