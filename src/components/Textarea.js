@@ -43,11 +43,11 @@ export default function Textarea(props) {
             <textarea className={`form-control bg-${props.mode==='light'?'light':'dark'} text-${props.mode==='light'?'dark':'light'}`} id="myBox" value={text} onChange={handleChange} rows="6" placeholder='Enter Text Here'>
             </textarea>
           </div>
-          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3`} onClick={clickedUp}>Convert To Uppercase</button>
-          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3`} onClick={capitalize}>Convert To Capitalise</button>
-          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3`} onClick={clickedLow}>Convert To Lowercase</button>
-          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3`} onClick={clearText}>Clear Text</button>
-          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3`} onClick={replaceWord}>Replace Word</button>
+          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3 my-3`} onClick={clickedUp}>Convert To Uppercase</button>
+          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3 my-3`} onClick={capitalize}>Convert To Capitalise</button>
+          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3 my-3`} onClick={clickedLow}>Convert To Lowercase</button>
+          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3 my-3`} onClick={clearText}>Clear Text</button>
+          <button className={`btn btn-${props.mode==='light'?'primary':'success'} mx-3 my-3`} onClick={replaceWord}>Replace Word</button>
         </div>
         <div className='container my-3'>
           <h1>Your Text Summary...</h1>
